@@ -1,4 +1,4 @@
-#plo histogram
+#plot histogram
 
 data <- read.table("household_power_consumption.txt",header=TRUE, sep=";",stringsAsFactors = FALSE,na.strings = "?")
 data$Time <- format(data$Time,format="%H:%M:%S")
